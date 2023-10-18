@@ -34,7 +34,7 @@ export const Navbar = () => {
           <>
             <SignInButton mode="modal">
               <Button variant="ghost" size="sm" className="font-mono text-xl">
-                Log in
+                Log-In
               </Button>
             </SignInButton>
             <SignInButton mode="modal">
