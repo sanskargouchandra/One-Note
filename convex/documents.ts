@@ -3,19 +3,7 @@ import { v } from "convex/values";
 import { mutation, query } from "./_generated/server";
 import { Doc, Id } from "./_generated/dataModel";
 
-//Get
-export const get = query({
-  handler:async (ctx) => {
-    const identity = await ctx.auth.getUserIdentity();
 
-    if (!identity) {
-      throw new Error("Not authenticated");
-    }
-    const document = await ctx.db.query("documents").collect();
-
-    return document;
-  }
-})
 
 //Archive
 export const archive = mutation({
@@ -120,6 +108,7 @@ export const create = mutation({
   },
 });
 
+//getTrash
 export const getTrash = query({
   handler: async (ctx) => {
     const identity = await ctx.auth.getUserIdentity();
@@ -141,6 +130,8 @@ export const getTrash = query({
   },
 });
 
+
+//Restore
 export const restore = mutation({
   args: { id: v.id("documents") },
   handler: async (ctx, args) => {
@@ -162,6 +153,8 @@ export const restore = mutation({
       throw new Error("Unauthorized");
     }
 
+
+    // 3:43 left    
     const recursiveRestore = async (documentId: Id<"documents">) => {
       const children = await ctx.db
         .query("documents")
@@ -198,6 +191,7 @@ export const restore = mutation({
   },
 });
 
+// Remove
 export const remove = mutation({
   args: { id: v.id("documents") },
   handler: async (ctx, args) => {
