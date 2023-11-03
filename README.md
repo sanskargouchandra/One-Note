@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://github.com/sanskargouchandra/One-Note/assets/117097248/bacf73dd-42a9-4e8a-9d04-c7da7daf166c" alt="logo" width="200" height="auto" />
+  <img src="https://github.com/sanskargouchandra/One-Note/assets/117097248/67dfaa02-8598-4bae-a630-59f8566f9d59" alt="logo" width="200" height="auto" />
 
   <h1>One-Note with Next.JS</h1>
   
