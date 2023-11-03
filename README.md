@@ -88,7 +88,7 @@ https://github.com/sanskargouchandra/One-Note/assets/117097248/fbbe4a9b-8dc7-4dc
 <a href="#"><img src="https://user-images.githubusercontent.com/99184393/180462270-ea4a249c-627c-4479-9431-5c3fd25454c4.png" alt="" width="30" height="30" /></a>
         </td>
                                 <td>
-<a href="#"><img src="https://clerk.com/_next/image?url=%2Fimages%2Fclerk-logo.svg&w=96&q=75" alt="" width="30" height="30" /></a>
+<a href="#"><img src="https://images.crunchbase.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/a1iakwzbac96qzymzwtq" alt="" width="30" height="30" /></a>
         </td>
                                 <td>
 <a href="#"><img src="https://docs.convex.dev/img/convex-dark.svg" alt="" width="30" height="30" /></a>
@@ -96,9 +96,8 @@ https://github.com/sanskargouchandra/One-Note/assets/117097248/fbbe4a9b-8dc7-4dc
                                       <td>
 <a href="#"><img src="https://edgestore.dev/img/logo-sm.png" alt="" width="40" height="40" /></a>
         </td>
-
-      <td>
-<a href="#"><img src="https://www.blocknotejs.org/img/logos/banner.dark.svg" alt="" width="40" height="40" /></a>
+                                    <td>
+<a href="#"><img src="https://avatars.githubusercontent.com/u/125679560?v=4&s=400" alt="" width="40" height="40" /></a>
         </td>
     </tr>
 </table>
@@ -142,7 +141,7 @@ This project was bootstrapped with [Create Next App](https://nextjs.org/docs/get
 Install my-project with npm
 
 ```
-npx create-next-app my-project
+npx create-next-app@latest my-project
 ```
 
 ```
